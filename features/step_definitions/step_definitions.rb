@@ -8,7 +8,7 @@ Dado("que eu acesse o site") do
      @validar.validar_presenca_texto
      @clique.clicar_AZ
      
-     @clique.clicar_programacao
+     #@clique.clicar_programacao
      
    end
    Então("espero que o texto da programação seja o mesmo da tela") do

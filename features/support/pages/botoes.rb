@@ -18,7 +18,7 @@ class Botoes
  
     end
     def clicar_programacao
-        (all('.program-schedule-content')[0]).click
+        first('.program-schedule-content').click
 
 
       
